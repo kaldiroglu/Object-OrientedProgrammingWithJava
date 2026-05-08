@@ -1,0 +1,32 @@
+@startuml
+
+class Shape {
+}
+
+class FilledSquare {
+}
+
+class Square {
+}
+
+class Triangle {
+}
+
+class FilledRectangle {
+}
+
+class Rectangle {
+}
+
+class Circle {
+}
+
+class AnotherCircle {
+}
+
+Square <|-- FilledSquare
+Shape <|-- Square
+Rectangle <|-- FilledRectangle
+Shape <|-- Rectangle
+Shape <|-- Circle
+@enduml
