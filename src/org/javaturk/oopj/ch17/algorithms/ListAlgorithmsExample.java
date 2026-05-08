@@ -1,5 +1,5 @@
 
-package org.javaturk.oopj.ch17;
+package org.javaturk.oopj.ch17.algorithms;
 
 import java.util.*;
 
@@ -39,6 +39,6 @@ public class ListAlgorithmsExample {
 		System.out.println("Singleton and immutable list.");
 		List singletonImmutableList = Collections.singletonList("Java");
 		singletonImmutableList.forEach(System.out::println);
-		singletonImmutableList.add("C++");
+//		singletonImmutableList.add("C++");
 	}
 }

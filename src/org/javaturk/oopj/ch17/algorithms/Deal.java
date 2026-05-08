@@ -1,9 +1,9 @@
-package org.javaturk.oopj.ch17;
+package org.javaturk.oopj.ch17.algorithms;
 
 import java.util.*;
 
 class Deal {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		int numHands = 0;
 		int cardsPerHand = 0;
 		if (args.length == 2) {

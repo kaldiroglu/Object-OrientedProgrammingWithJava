@@ -1,5 +1,4 @@
-
-package org.javaturk.oopj.ch17;
+package org.javaturk.oopj.ch17.algorithms;
 
 import java.util.Collections;
 import java.util.Set;
@@ -15,7 +14,6 @@ public class SetAlgorithmsExample {
 		System.out.println("Singleton and immutable set.");
 		Set singletonImmutableSet = Collections.singleton("Java");
 		CollectionUtil.listElements(singletonImmutableSet);
-		singletonImmutableSet.add("C++");
+//		singletonImmutableSet.add("C++");
 	}
-
 }

@@ -1,4 +1,4 @@
-package org.javaturk.oopj.ch17;
+package org.javaturk.oopj.ch17.algorithms;
 import java.util.*;
 
 import org.javaturk.oopj.ch14.domain.*;
@@ -20,10 +20,9 @@ public class SearchingExample {
         System.out.println(list);
 
         Collections.sort(list);
-        Object o;
         System.out.println(list);
         
-        Name searchFor = new Name("Mehmet", "Kuscux");
+        Name searchFor = new Name("Mehmet", "Kuscu");
         
         int index = Collections.binarySearch(list, searchFor);
         System.out.println("\nIndex: " + index);
