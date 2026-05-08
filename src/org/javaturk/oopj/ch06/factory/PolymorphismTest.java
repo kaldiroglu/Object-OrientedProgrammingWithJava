@@ -2,7 +2,7 @@ package org.javaturk.oopj.ch06.factory;
 
 import org.javaturk.oopj.ch06.factory.domain.*;
 
-public class TestPolymorphism {
+public class PolymorphismTest {
 
 	public static void main(String[] args) {
 		//These are normal assignments

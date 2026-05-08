@@ -1,6 +1,6 @@
 package org.javaturk.oopj.ch11.privateMethods;
 
-public class TestPrivateMethod {
+public class PrivateMethodTest {
 
 	public static void main(String[] args) {
 		Printable printable = new Document();

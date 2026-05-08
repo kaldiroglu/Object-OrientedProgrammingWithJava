@@ -1,8 +1,7 @@
 package org.javaturk.oopj.ch06.factory.problem.problem2;
 
 
-
-public class TestPayrollOffice {
+public class PayrollOfficeTest {
 
 	public static void main(String[] args) {
 		PayrollOffice payrollOffice = new PayrollOffice();

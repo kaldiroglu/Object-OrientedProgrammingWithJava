@@ -2,7 +2,7 @@ package org.javaturk.oopj.ch06.factory.office;
 
 import org.javaturk.oopj.ch06.factory.domain.*;
 
-public class TestPMOffice {
+public class PMOfficeTest {
 
 	public static void main(String[] args) {
 		PMOffice pmOffice = new PMOffice();

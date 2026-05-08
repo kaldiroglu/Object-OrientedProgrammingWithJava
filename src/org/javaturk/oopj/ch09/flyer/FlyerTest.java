@@ -5,7 +5,7 @@ import java.util.*;
 import org.javaturk.oopj.ch09.flyer.driver.*;
 import org.javaturk.oopj.ch09.flyer.vehicle.*;
 
-public class TestFlyer {
+public class FlyerTest {
 
 	public static void main(String[] args) {
 		SeaPlane seaPlane = new SeaPlane("Akin's SeaPlane");

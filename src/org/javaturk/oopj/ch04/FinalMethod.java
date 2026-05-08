@@ -8,7 +8,7 @@ package org.javaturk.oopj.ch04;
  * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
  *      </p>
  */
-public class FinaMethod{
+public class FinalMethod{
 
 	public static void main(String[] args) {
 		Parent parent = new Parent();

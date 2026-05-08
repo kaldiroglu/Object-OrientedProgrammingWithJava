@@ -3,7 +3,7 @@ package org.javaturk.oopj.ch06.factory.office;
 
 import org.javaturk.oopj.ch06.factory.domain.*;
 
-public class TestPayrollOffice {
+public class PayrollOfficeTest {
 
 	public static void main(String[] args) {
 		PayrollOffice payrollOffice = new PayrollOffice();

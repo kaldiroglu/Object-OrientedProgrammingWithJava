@@ -1,4 +1,4 @@
-package org.javaturk.oofp.ch10.commons;
+package org.javaturk.oopj.ch17.commons;
 
 import org.apache.commons.collections4.IterableMap;
 import org.apache.commons.collections4.MapIterator;

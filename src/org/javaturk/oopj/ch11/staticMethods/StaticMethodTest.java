@@ -1,6 +1,6 @@
 package org.javaturk.oopj.ch11.staticMethods;
 
-public class TestStaticMethod {
+public class StaticMethodTest {
 
 	public static void main(String[] args) {
 		Printable printable = new Document();

@@ -1,4 +1,4 @@
-package org.javaturk.oopj.ch11.inheritance.overriding;
+package org.javaturk.oopj.ch03.overriding;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
@@ -8,7 +8,7 @@ package org.javaturk.oopj.ch11.inheritance.overriding;
  * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
  *      </p>
  */
-public class RestrictiveOverrding {
+public class RestrictiveOverriding {
 
 	public static void main(String[] args) {
 		Parent p = new Parent();

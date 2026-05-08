@@ -5,7 +5,7 @@ import org.javaturk.oopj.ch06.factory.domain.Manager;
 import org.javaturk.oopj.ch06.factory.hr.HR;
 import org.javaturk.oopj.ch06.factory.hr.HRForManagers;
 
-public class TestHRForManagers {
+public class HRForManagersTest {
 
 	public static void main(String[] args) {
 		HR hr = new HRForManagers();

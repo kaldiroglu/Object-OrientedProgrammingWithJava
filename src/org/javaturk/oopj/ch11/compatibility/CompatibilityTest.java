@@ -1,6 +1,6 @@
 package org.javaturk.oopj.ch11.compatibility;
 
-public class TestCompatibility {
+public class CompatibilityTest {
 
 	public static void main(String[] args) {
 		System.out.println();
