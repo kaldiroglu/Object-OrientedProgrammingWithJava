@@ -241,10 +241,6 @@ public class LoginFrame extends JFrame implements ActionListener, MouseListener{
 	public void close(){
 		System.exit(1);
 	}
-	
-	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
-		LoginFrame frame = new LoginFrame("Login Frame");
-	}
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
@@ -255,25 +251,21 @@ public class LoginFrame extends JFrame implements ActionListener, MouseListener{
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
+	}
+
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
+		LoginFrame frame = new LoginFrame("Login Frame");
 	}
 }

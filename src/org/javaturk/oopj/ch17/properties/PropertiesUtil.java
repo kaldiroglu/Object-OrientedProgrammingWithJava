@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesUtil {
-	private static String propertiesFile; // = "./bin/org/javaturk/oopj/ch15/properties/resources/captions_tr.properties";
+	private static String propertiesFile = "/Users/akin/Development/Java/Idea/Java SE WS/Object-Oriented Programming with Java/src/org/javaturk/oopj/ch17/properties/resources/captions.properties";
 
 	static Properties properties;
 	private static Properties systemProperties;
@@ -14,7 +14,7 @@ public class PropertiesUtil {
 	static {
 		// First get System properties and resource file.
 		systemProperties = System.getProperties();
-		propertiesFile = systemProperties.getProperty("propertiesFile");
+//		propertiesFile = systemProperties.getProperty("propertiesFile");
 
 		properties = new Properties();
 		FileReader in = null;
