@@ -61,7 +61,7 @@ public class IteratorExample {
 
         it = coll.iterator();
         while (it.hasNext()) {
-            it.next();
+            System.out.println("Removing: " + it.next());
             it.remove();
         }
 
@@ -69,7 +69,8 @@ public class IteratorExample {
         listElements(coll);
 
         // Throws java.util.NoSuchElementException
-//		it.next();
+//		if(it.hasNext())
+//            it.next();
     }
 
     public static void iteratorExample2() {

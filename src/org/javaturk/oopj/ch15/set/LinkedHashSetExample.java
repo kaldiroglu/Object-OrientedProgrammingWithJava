@@ -7,9 +7,9 @@ import java.util.SequencedCollection;
 public class LinkedHashSetExample {
 
     public static void main(String[] args) {
-//        run1();
+        run1();
 //        run2();
-        run3();
+//        run3();
     }
 
     static void run1() {

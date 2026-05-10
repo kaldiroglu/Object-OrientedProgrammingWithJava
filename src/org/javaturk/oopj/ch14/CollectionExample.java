@@ -62,6 +62,7 @@ public class CollectionExample {
 			System.out.println(o);
 	
 		coll1.clear();
+		System.out.println("Size of coll1: " + coll1.size());
 		coll1.add("three");
 		coll1.add("four");
 		listElements(coll1);

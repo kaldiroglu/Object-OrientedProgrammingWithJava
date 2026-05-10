@@ -5,17 +5,17 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class ListPerformance {
-    private static int n = 1_00_000_000; // For 1_000_000 in adding to the front, time for ArrayList is 91923.0 ms & time
+    private static int n = 100_000_000; // For 1_000_000 in adding to the front, time for ArrayList is 91923.0 ms & time
     // for LinkedList is 191.0 ms.
 
     public static void main(String[] args) {
 //		 simpleArrayInsertion();
-//        arrayListInsertion();
-//        linkedListInsertion();
+        arrayListInsertion();
+        linkedListInsertion();
 
         // simpleArrayAccess();
-		 simpleArrayListAccess();
-		 simpleLinkedListAccess();
+//		 simpleArrayListAccess();
+//		 simpleLinkedListAccess();
 
         // simpleArraySearch(n/2);
 //		 arrayListSearch(n/2);

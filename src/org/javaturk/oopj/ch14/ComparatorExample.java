@@ -12,8 +12,8 @@ import java.util.List;
 public class ComparatorExample {
 
 	public static void main(String[] args) {
-		compareExample();
-//		collectionExample();
+//		compareExample();
+		collectionExample();
 	}
 
 	public static void compareExample() {
@@ -48,6 +48,10 @@ public class ComparatorExample {
 		System.out.println("\nAfter sorting in reverse.");
 		Comparator<Employee> reverseComparator = comparator.reversed();
 		Collections.sort(employees, reverseComparator);
+		printEmployees(employees);
+
+		System.out.println("\nAfter sorting by ids.");
+		Collections.sort(employees);
 		printEmployees(employees);
 	}
 	

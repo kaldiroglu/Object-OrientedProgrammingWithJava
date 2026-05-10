@@ -10,7 +10,7 @@ import java.util.Iterator;
 public class IterableExample {
 
 	public static void main(String[] args) {
-		Collection coll = CollectionUtil.getCollection();
+		Collection<String> coll = CollectionUtil.getCollection();
 		
 		System.out.println("Elements in collection.");
 		for (Object o : coll)
@@ -31,9 +31,9 @@ public class IterableExample {
 
 	public static void iterate(Iterable iterable) {
 		System.out.println("\n***   iterate()   ***");
-		Iterator iterator = iterable.iterator();
+		Iterator<String> iterator = iterable.iterator();
 		while (iterator.hasNext()) {
-			String s = (String) iterator.next();
+			String s = iterator.next();
 			System.out.println(s + " has " + s.length() + " characters.");
 		}
 	}

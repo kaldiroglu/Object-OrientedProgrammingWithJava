@@ -16,9 +16,8 @@ public class GenericCollection {
 //        coll.add(5.0); // Can't do that!
 //        coll.add(true); // Can't do that!
 //        coll.add("five"); // Can't do that!
-//        Employee e = new new Employee(999, "Salih", "Guzel", 3);
+//        Employee e = new Employee(999, "Salih", "Guzel", 3);
 //        coll.add(e); // Can't do that!
-
 
         System.out.println("\nElements in collection by iterator.");
         Iterator<Integer> it = coll.iterator();

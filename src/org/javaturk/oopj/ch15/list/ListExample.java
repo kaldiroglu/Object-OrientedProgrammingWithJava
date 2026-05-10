@@ -10,9 +10,9 @@ import java.util.function.UnaryOperator;
 public class ListExample {
 
 	public static void main(String[] args) {
-//		processList();
-//		iterateList();
-		processListThroughIterator();
+		processList();
+		iterateList();
+//		processListThroughIterator();
 //		processUnmodifiableList();
 //		listFromArray();
 	}
