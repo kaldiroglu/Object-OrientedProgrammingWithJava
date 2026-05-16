@@ -13,10 +13,10 @@ import java.util.function.Function;
 public class MapExample {
 
 	public static void main(String[] args) {
-		processMap();
+//		processMap();
 //		replaceAndRemove();
 //		computeFunctions();
-//		processUnmodifiableMap();
+		processUnmodifiableMap();
 	}
 
 	public static void processMap() {
@@ -136,6 +136,10 @@ public class MapExample {
 			Object value = map.get(key);
 			System.out.println(key + " - " + value);
 		}
+
+		System.out.println();
+
+		map.forEach((k, v) -> System.out.println(k + " --> " + v));
 
 //		map.put(5, "Sibel");
 	}

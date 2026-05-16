@@ -163,4 +163,13 @@ public class ListExample {
 		for (String s : array)
 			System.out.println(s);
 	}
+
+	void genericList(){
+		List<String> list = new ArrayList<>();
+		list.add("Mehmet");
+		list.add("Zeynep");
+
+		list.addAll(Arrays.asList("Selim", "Ayşe"));
+//		list.addAll(Arrays.asList(5));
+	}
 }

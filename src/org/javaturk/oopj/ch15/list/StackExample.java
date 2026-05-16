@@ -11,9 +11,9 @@ public class StackExample {
 //        run1();
 //        run2();
 //        run3();
-        run4();
-//        String s = "16 + 5 - 2";
-//        run5(s);
+//        run4();
+        String s = "16 + 5 - 2";
+        run5(s);
 //
 //        s = "16 / 4 * 2";
 //        run5(s);
